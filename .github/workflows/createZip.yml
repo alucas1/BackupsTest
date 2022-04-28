@@ -11,8 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run a one-line script
-        run: echo Hello from createZip
-
-      - name: Print contents of file
-        run: cat sampleFile.txt
+      - name: list contents
+        run: ls
